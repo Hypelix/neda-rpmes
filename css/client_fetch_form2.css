@@ -1,0 +1,257 @@
+.tbl_form2{
+border-collapse: collapse;
+background: #fff;
+font-size: 13px;
+margin: 20 auto;
+width: 1200px;
+position: relative;
+}
+.lab_f2{
+top: 2;
+right: 2;
+position: absolute;
+font-weight: bold;
+}
+.tbl_form2 td{
+padding: 4px;
+}
+.p_bold{
+font-weight: bold;
+}
+.white_space{
+padding: 5 0px;
+background: #fff;
+}
+.tr_number{
+background: #00008b;
+color: #fff;
+}
+.tr_number td, .tr_item td{
+border: 1px solid #808080;
+}
+.tr_item{
+background: #00008b;
+color: #fff;
+}
+.td_border td{
+border: 1px solid #808080;
+}
+.hr_head{
+border-bottom: 1px solid #000;
+}
+.btn_submit{
+padding: 5 10px;
+background: #9acd32;
+color: #fff;
+border-radius: 3px;
+font-size: 13px;
+border-bottom: 1px solid #669933;
+cursor: pointer;
+text-align: center;
+}
+.btn_submit:hover{
+background: #669933;
+}
+.ul_date{
+list-style-type: none;
+margin-top: 4px;
+}
+.li_date{
+float: left;
+margin: 0 2px;
+}
+.submitted_mm, .submitted_dd, .submitted_yy{
+border: 1px solid #ccc;
+font-size: 12px;
+width: 50px;
+}
+.rel_period, .rel_month, .ob_period, .ob_month, .dis_period, .dis_month, .actual_date, .actual_month, .eg_m, .eg_f{
+padding: 4px;
+border-radius: 2px;
+border: 1px solid #ccc;
+font-size: 14px;
+width: 60px;
+}
+.remarks{
+width: 200px;
+height: 100px;
+padding: 3px;
+border-radius: 2px;
+font-size: 14px;
+font-family: sans-serif, tahoma, calibri;
+margin: 4px;
+border: 1px solid #ccc;
+}
+.submitted_by{
+width: 200px;
+border: 1px solid #ccc;
+padding: 4px;
+}
+.rel_period_checker, .red_span, .rel_month_checker, .ob_period_checker,
+.ob_month_checker, .dis_period_checker, .dis_month_checker, .actual_date_checker,
+.actual_month_checker, .actual_month_validator{
+color: #ff0000;
+font-size: 13px;
+font-style: italic;
+}
+.con_success{
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 10;
+top: 50;
+}
+.con_box_success{
+margin: 100 auto;
+width: 500px;
+padding: 50 20px;
+border: 1px solid #ccc;
+border-radius: 3px;
+background: #fff;
+text-align: center;
+color: #9acd32;
+font-size: 18px;
+font-weight: bold;
+box-shadow: 0px 4px 20px #000;
+-moz-box-shadow: 0px 4px 20px #000;
+-o-box-shadow: 0px 4px 20px #000;
+-webkit-box-shadow: 0px 4px 20px #000;
+}
+.icon_popup{
+width: 60px;
+height: 60px;
+margin-bottom: 15px;
+}
+.s_del{
+color: #ff0000;
+}
+.s_updated{
+color: #9acd32;
+}
+.camera{
+width: 25px;
+height: 25px;
+padding: 5px;
+background: #00008b;
+cursor: pointer;
+border-radius: 4px;
+}
+#pic{
+display: none;
+}
+.pic_inn{
+width: 100%;
+height: 100%;
+position: absolute; 
+z-index: 8;
+background: rgba(0,0,0,0.5);
+display: none;
+}
+.pic_box{
+margin: 50 auto;
+width: 600px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+background: #fff;
+text-align: center;
+position: relative;
+}
+.big_cam{
+width: 50px;
+height: 50px;
+border-radius: 10px;
+padding: 10px;
+background: #00008b;
+margin-bottom: 10px;
+}
+.lab_blue{
+color: #0000ff;
+font-size: 17px;
+}
+.lab_blue:hover{
+text-decoration: underline;
+}
+.btn_pic{
+padding: 10 20px;
+background: #9acd32;
+border-bottom: 2px solid #669933;
+cursor: pointer;
+margin: 10 0px;
+border-radius: 4px;
+margin-left: 20px;
+font-size: 15px;
+}
+.btn_pic:hover{
+background: #669933;
+}
+.x_pic_innn{
+position: absolute;
+top: 10;
+right: 10;
+background: #fff;
+border-radius: 50%;
+padding: 10px;
+cursor: pointer;
+color: #808080;
+font-size: 20px;
+}
+.x_pic_innn:hover{
+background: #f1f1f1;
+color: #ff0000;
+}
+.con{
+padding: 5 0px;
+color: #ff0000;
+text-indent: 12px;
+border-left: 4px solid #ff0000;
+background: #fff;
+width: 420px;
+position: relative;
+margin: 0 auto;
+}
+.close_checker{
+position: absolute;
+padding: 3px;
+background: #ccc;
+color: #fff;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-o-border-radius: 50%;
+-webkit-border-radius: 50%;
+right: 5;
+top: 2;
+margin: 0 auto;
+cursor: pointer;
+}
+.close_checker:hover{
+background: #f08080;
+}
+.pic_inn_2{
+width: 100%;
+height: 100%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+z-index: 10;
+}
+.uploaded_succ{
+width: 600px;
+padding: 20px;
+text-align: center;
+font-size: 20px;
+color: #669933;
+margin: 40 auto;
+background: #fff;
+border-radius: 10px;
+}
+.pic_green{
+width: 50px;
+height: 50px;
+margin: 10 0px;
+}
+.req_con{
+margin: 10 auto;
+width: 1300px;
+color: #ff0000;
+font-size: 14px;
+}

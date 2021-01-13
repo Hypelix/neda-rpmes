@@ -1,0 +1,34 @@
+.con_waiting{
+margin: 40 auto;
+background: #fff;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+padding: 10px;
+height: 60px;
+width: 400px;
+}
+.a_proceed{
+padding: 5 10px;
+color: #669933;
+background: #fff;
+border: 1px solid #669933;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-o-border-radius: 4px;
+-webkit-border-radius: 4px;
+text-decoration: none;
+transition: .4s;
+}
+.a_proceed:hover{
+background: #669933;
+border: 1px solid #fff;
+color: #fff;
+}
+.span_wait{
+color: #696969;
+}
+.span_confirm{
+color: #0000ff;
+}

@@ -1,0 +1,105 @@
+.tbl_restrict_admin{
+margin: 30 auto;
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid #ccc;
+position: relative;
+width: 1000px;
+}
+.tbl_restrict_admin td{
+font-size: 14px;
+}
+.rec_icon{
+width: 70px;
+height: 70px;
+}
+label{
+font-weight: bold;
+font-size: 17px;
+}
+p{
+color: #ff0000;
+}
+.reg_ad{
+background: #e8e8e8;
+font-weight: bold;
+padding: 10 0px;
+}
+.ad_av{
+width: 60px;
+height: 60px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+.a_make_super{
+margin-left: 5px;
+font-size: 14px;
+text-decoration: none;
+color: #0000ff;
+border-radius: 4px;
+padding: 3 5px;
+border: 1px solid #0000ff;
+}
+.a_make_super:hover{
+background: #0000ff;
+color: #fff;
+}
+.enab_signUp, .dis_signUp{
+padding: 10 20px;
+border: 1px solid #fff;
+border-radius: 5px;
+font-size: 16px;
+text-decoration: none;
+font-weight: bold;
+}
+.dis_signUp{
+color: #fff;
+background: #f08080;
+}
+.dis_signUp:hover{
+background: #ff0000;
+color: #fff;
+}
+.enab_signUp{
+color: #fff;
+background: #9acd32;
+}
+.enab_signUp:hover{
+background: #669933;
+color: #fff;
+}
+.td_acc_man{
+padding: 10 0px;
+text-align: center;
+background: #ffb6c1;
+font-weight: bold;
+}
+.div_w{
+padding: 10 0px;
+background: #fff;
+}
+.inn_man{
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 5;
+}
+.out_man{
+margin: 50 auto;
+width: 400px;
+background: #fff;
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+}
+.change_admin{
+width: 70px;
+height: 70px;
+font-size: 18px;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 50%;
+}

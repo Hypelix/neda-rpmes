@@ -1,0 +1,18 @@
+.con_yr{
+height: 40px;
+background: #f1f1f1;
+}
+.ul_yr{
+list-style-type: none;
+margin-left: 100px;
+}
+.li_yr{
+line-height: 40px;
+float: left;
+border-left: 1px solid #000;
+transition: .4s;
+}
+.li_yr:hover{
+background: #00008b;
+color: #fff;
+}

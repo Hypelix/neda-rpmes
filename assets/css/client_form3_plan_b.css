@@ -1,0 +1,58 @@
+.space{
+padding: 6 0px;
+background: #fff;
+}
+.tbl_form3{
+margin: 20 auto;
+background: #fff;
+width: 1200px;
+border-collapse: collapse;
+position: relative;
+font-size: 14px;
+}
+.tbl_form3 td{
+padding: 4px;
+}
+.f3{
+position: absolute;
+top: 4;
+right: 4;
+font-weight: bold;
+}
+.tr_banner{
+background: #00008b;
+}
+.tr_banner td{
+border: 1px solid #000;
+color: #fff;
+}
+.txt{
+width: 100%;
+padding: 2px;
+border: 1px solid #ccc;
+text-align: center;
+}
+.td_border td{
+border: 1px solid #000;
+}
+.ul_date{
+list-style-type: none;
+}
+.li_date{
+float: left;
+margin: 0 4px;
+}
+select{
+border: 1px solid #ccc;
+}
+.btn_submit{
+padding: 5px;
+color: #fff;
+background: #9acd32;
+border-radius: 2px;
+cursor: pointer;
+border-bottom: 1px solid #669933;
+}
+.btn_submit:hover{
+background: #669933;
+}

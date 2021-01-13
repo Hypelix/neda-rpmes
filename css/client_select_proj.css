@@ -1,0 +1,52 @@
+.p_there{
+margin: 20 auto;
+color: #0000ff;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+.con_proj{
+padding: 5px;
+width: 600px;
+text-indent: 10px;
+font-size: 16px;
+color: #0000ff;
+margin: 10 auto;
+transition: .4s;
+}
+.a_get{
+text-decoration: none;
+color: #000;
+}
+.a_get:hover{
+color: #ff0000;
+}
+.con_proj:hover{
+background: #00ffff;
+}
+.no_yr{
+margin: 40 auto;
+width: 500px;
+background: #ffb6c1;
+color: #ff0000;
+font-size: 17px;
+text-indent: 12px;
+border: 1px solid #fff;
+border-radius: 3px;
+padding: 5px;
+position: relative;
+}
+.a_no_yr{
+position: absolute;
+top: 4;
+right: 5;
+text-decoration: none;
+color: #ff0000;
+background: #ccc;
+padding: 2 0px;
+padding-right: 4px;
+}
+.a_no_yr:hover{
+background: #fff;
+border-radius 2px;
+}

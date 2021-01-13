@@ -1,0 +1,126 @@
+.con_form{
+overflow-y: auto;
+overflow-x: hidden;
+height: 100vh;
+}
+.tbl_form1{
+border-collapse: collapse;
+background: #fff;
+margin: 20 auto;
+position: relative;
+width: 1000px;
+}
+.tbl_form1 td{
+font-size: 9px;
+padding: 5 0px;
+}
+.space{
+padding: 10 0px;
+background: #fff;	
+}
+.p_big{
+font-weight: bold;
+}
+.td_blue{
+background: #00008b;
+color: #fff;
+}
+.td_blue td{
+border: 0.2pt solid #000;
+}
+.td_border td{
+border: 0.2pt solid #000;
+}
+.ul_eg{
+list-style-type: none;
+}
+.li_eg{
+margin: 2 0px;
+}
+.no_forms{
+margin: 20 auto;
+width: 1000px;
+background: #ffb6c1;
+padding: 7 0px;
+text-indent: 10px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.label{
+font-weight: bold;
+position: absolute;
+top: 0;
+right: 0;
+color: #000;
+}
+.con_print{
+position: fixed;
+top: 20;
+z-index: 10;
+}
+.btn_print{
+background: #cd5c5c;
+color: #fff;
+padding: 10px;
+float: right;
+cursor: pointer;
+width: 100px;
+margin-left: 1200px;
+text-decoration: none;
+border-radius: 3px;
+text-align: center;
+border: 0;
+border-bottom: 2px solid #ff0000;
+transition: .2s;
+margin-bottom: 10px;
+}
+.btn_print:hover{
+background: #ff0000;
+box-shadow: 0px 4px 20px #ccc;
+-moz-box-shadow: 0px 4px 20px #ccc;
+-o-box-shadow: 0px 4px 20px #ccc;
+-webkit-box-shadow: 0px 4px 20px #ccc;
+}
+.print_con{
+width: 50px;
+float: right;
+margin-right: 20px;
+padding: 5px;
+width: 500px;
+}
+.print_outer{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+@media print {
+  .btn_print, .a_b {
+    display: none;
+  }
+}
+.a_b{
+text-decoration: none;
+background: #4169cc;
+color: #fff;
+padding: 5 0px;
+float: right;
+cursor: pointer;
+width: 100px;
+margin-left: 1200px;
+text-decoration: none;
+border-radius: 3px;
+text-align: center;
+border-bottom: 2px solid #ff0000;
+transition: .2s;
+border: 0;
+border-radius: 3px;
+}
+.a_b:hover{
+background: #00008b;
+box-shadow: 0px 4px 20px #ccc;
+-moz-box-shadow: 0px 4px 20px #ccc;
+-o-box-shadow: 0px 4px 20px #ccc;
+-webkit-box-shadow: 0px 4px 20px #ccc;
+}

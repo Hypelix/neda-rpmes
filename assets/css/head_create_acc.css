@@ -1,0 +1,79 @@
+.signUp_con{
+width: 1000px;
+margin: 70 auto;
+}
+.tbl_signUp{
+margin: 20 auto;
+width: 400px;
+background: #fff;
+padding: 10px;
+box-shadow: 0px 4px 20px #ccc;
+-moz-box-shadow: 0px 4px 20px #ccc;
+-o-box-shadow: 0px 4px 20px #ccc;
+-webkit-box-shadow: 0px 4px 20px #ccc;
+}
+.hr_signUp{
+margin: 5 0px;
+border-bottom: 1px solid #ccc;
+}
+.tbl_signUp td{
+padding: 5 0px;
+position: relative;
+}
+.tbl_signUp label{
+color: #0000ff;
+font-size: 16px;
+}
+.a_login{
+position: absolute;
+padding: 4 15px;
+color: #000;
+text-decoration: none;
+border: 1px solid #00ffff;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+right: 10;
+top: -7;
+font-size: 14px;
+background: #f1f1f1;
+}
+.a_login:hover{
+background: #00ffff;
+}
+.fname, .mname, .lname, .agency_name, .position, .email, .uname, .pwd, .pwd_rec{
+border: 1px solid #ccc;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+font-size: 15px;
+width: 100%;
+padding: 7 4px;
+}
+.btn_signUp{
+padding: 5 12px;
+background: #9acd32;
+color: #fff;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-bottom: 2px solid #669933;
+cursor: pointer;
+transition: .4s;
+}
+.btn_signUp:hover{
+background: #669933;
+}
+.fname_checker, .mname_checker, .lname_checker, .agency_name_checker, .position_checker, .email_checker, .uname_checker, .pwd_checker, .pwd_rec_checker, .uname_false{
+color: #ff0000;
+font-size: 14px;
+font-style: italic;
+}
+.uname_true{
+color: #669933;
+font-size: 14px;
+font-style: italic;
+}

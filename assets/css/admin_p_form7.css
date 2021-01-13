@@ -1,0 +1,43 @@
+#tbl_form7{
+background: #fff;
+width: 1000px;
+border-collapse: collapse;
+position: relative;
+margin: 0 auto;
+}
+.f7{
+position: absolute;
+top: 4;
+right: 4;
+}
+.tr_blue td{
+border: 0.2pt solid #000;
+background: #00008b;
+color: #fff;
+font-size: 9px;
+}
+#tbl_form7 td{
+font-size: 9px;
+padding: 5px;
+}
+.tbl_form7_banner{
+font-weight: bold;
+}
+.tr_border td{
+border: 0.2pt solid #000;
+}
+.space{
+padding: 10 0px;
+background: #fff;
+}
+.con_no_f7{
+width: 200;
+padding: 20px;
+background: #ffb6c1;
+color: #ff0000;
+font-size: 17px;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #fff;
+margin: 10 auto;
+}

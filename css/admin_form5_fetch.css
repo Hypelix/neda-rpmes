@@ -1,0 +1,257 @@
+.tbl_form5{
+margin: 20 auto;
+background: #fff;
+border-collapse:collapse;
+width: 1200px;
+position: relative;
+}
+.tbl_form5 tr:hover{
+background: #fff;
+}
+.tbl_form5 td{
+font-size: 13px;
+padding: 5px;
+}
+.td_form5 p{
+text-align: center;
+font-size: 13px;
+font-weight: bold;
+}
+.slct_date1{
+border: 1px solid #ccc;
+font-size: 12px;
+font-weight: bold;
+}
+.tr_form5 td{
+border: 1px solid #ccc;
+background: #00008b;
+font-size: 12px;
+color: #fff;
+padding: 2px;
+}
+.tr1_form5 td{
+border: 1px solid #ccc;
+background: #00008b;
+font-size: 12px;
+color: #fff;
+padding: 5px;
+}
+.tr2_form5 td{
+border: 1px solid #ccc;
+background: #00008b;
+font-size: 12px;
+color: #fff;
+padding: 5px;
+}
+.tr3_form5 td{
+border: 1px solid #ccc;
+background: #00008b;
+font-size: 12px;
+color: #fff;
+padding: 5px;
+}
+.tr4_form5 td{
+border: 1px solid #ccc;
+background: #00008b;
+font-size: 12px;
+color: #fff;
+padding: 5px;
+}
+.slct_date{
+border: 1px solid #ccc;
+font-size: 11px;
+width: 55px;
+}
+.tr4_form5 td{
+padding: 5px 10px;
+background: #fff;
+}
+.txt_form5, .slct_date{
+padding: 5px;
+border: 1px solid #ccc;
+}
+.txt1_form5{
+width: 100%;
+height: 30px;
+text-align: center;
+font-size: 12px;
+border: 1px solid #ccc;
+}
+.tbl_form5 td{
+border: 1px solid #ccc;
+}
+.txt2_form5{
+width: 100%;
+height: 30px;
+text-align: center;
+font-size: 12px;
+}
+.txtarea_form5{
+height: 217px;
+border: 1px solid #ccc;
+text-align: center;
+}
+.tr0_form5 td{
+font-size: 12px;
+border: 1px solid #fff;
+padding: 10px;
+}
+.text_form5{
+border-bottom: 1px solid #000;
+width: 250px;
+}
+.tbl_form5 .td_form5{
+border: 1px solid #fff;
+}
+.tbl_form5 .tdd_form5{
+border: 1px solid #fff;
+}
+td .p_form5{
+font-size: 12px;
+float: right;
+margin-top: -90px; 
+margin-right: 10px;
+border: 1px solid #fff;
+}
+.tr_submit td{
+border: 1px solid #fff;	
+padding: 10px;
+font-size: 12px;
+}
+.tr_desig td{
+border: 1px solid #fff;	
+padding: 10px;
+font-size: 12px;
+}
+.tr_date td{
+border: 1px solid #fff;	
+padding: 10px;
+font-size: 12px;
+}
+.txt3_form5{
+width: 200px;
+height: 20px;
+border-bottom: 1px solid #000;	
+}
+.date_form5{
+font-size: 12px;
+border: 1px solid #ccc;	
+}
+td .p_agency{
+padding-left: 110px;
+margin-top: -20px;
+}
+.rpmes_f5{
+position: absolute;
+top: 4;
+right: 4;
+font-size: 12px;
+}
+.btn_saved{
+padding: 4 10px;
+background: #fff;
+border-radius: 2px;
+font-size: 14px;
+border: 1px solid #9acd32;
+cursor: pointer;
+color: #9acd32;
+}
+.btn_saved:hover{
+background: #fff;
+border: 1px solid #669933;
+color: #669933;
+box-shadow: 0px 4px 10px #ccc;
+}
+.btn_export{
+padding: 4 10px;
+background: #fff;
+border-radius: 2px;
+font-size: 14px;
+border: 1px solid #cd5c5c;
+cursor: pointer;
+color: #cd5c5c;
+}
+.btn_export:hover{
+background: #fff;
+border: 1px solid #ff0000;
+color: #ff0000;
+box-shadow: 0px 4px 10px #ccc;
+}
+.pmc{
+padding: 4px;
+border: 1px solid #ccc;
+width: 400px;
+}
+.con_no_forms_sub{
+margin: 40 auto;
+width: 900px;
+background: #ffb6c1;
+color: #ff0000;
+font-size: 15px;
+text-indent: 5px;
+border-radius: 3px;
+border: 1px solid #fff;
+padding: 6 0px;
+position: relative;
+}
+.btn_back{
+position: absolute;
+top: 2;
+right: 3;
+text-decoration: none;
+font-size: 15px;
+background: #ccc;
+padding: 3 10px;
+border-radius: 2px;
+}
+.btn_back:hover{
+color: #0000ff;
+background: #fff;
+}
+.td_hide{
+display: none;
+color: #ff0000;
+}
+.red_td{
+color: #ff0000;
+}
+.btn_show_ref{
+text-decoration: none;
+cursor: pointer;
+color: #0000ff;
+}
+.btn_show_ref:hover{
+text-decoration: underline;
+}
+.btn_hide_ref{
+text-decoration: none;
+cursor: pointer;
+color: #0000ff;
+}
+.btn_hide_ref:hover{
+text-decoration: underline;
+}
+.space{
+padding: 5 0px;
+background: #fff;
+}
+.tr_white td{
+border: 1px solid #fff;
+}
+.submitted_by, .office, .date{
+border-bottom: 1px solid #ccc;
+padding: 4px;
+font-size: 14px;
+width: 100%;
+}
+h3{
+text-align: center;
+padding: 10 0px;
+color: #808080;
+}
+.tr_grey{
+background: #f1f1f1;
+}
+.tr_dead{
+background: #fff;
+}

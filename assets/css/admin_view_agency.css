@@ -1,0 +1,238 @@
+.con_form5_inn{
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+}
+.con_form5_out{
+text-align: center;
+margin: 50 auto;
+background: #fff;
+width: 400px;
+border-radius: 3px;
+border: 1px solid #ccc;
+padding: 20px;
+color: #0000ff;
+font-size: 15px;
+position: relative;
+}
+.a_close_form5_inn{
+cursor: pointer;
+font-size: 19px;
+color: #ff0000;
+position: absolute;
+top: 3;
+right: 3;
+}
+.quarter_tracker{
+padding: 6 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 16px;
+}
+.btn_enter_month{
+padding: 6 12px;
+background: #6495ed;
+color: #fff;
+border-bottom: 1px solid #00008b;
+border-radius: 3px;
+margin-left: 6px;
+cursor: pointer;
+}
+.btn_enter_month:hover{
+background: #00008b;
+}
+.tbl_agency{
+border-collapse: collapse;
+background: #fff;
+border: 1px solid #ccc;
+margin: 20 auto;
+font-size: 14px;
+width: 1000px;
+position: relative;
+}
+.tbl_agency td{
+padding: 20px;
+}
+.avat_view{
+width: 200px;
+height: 200px;
+}
+.ul_view{
+list-style-type: none;
+}
+.li_view{
+display: inline-block;
+margin: 5px;
+}
+.agency_name{
+color: #0000ff;
+font-size: 15px;
+}
+.ul_form{
+list-style-type: none;
+}
+.li_form{
+float: left;
+margin: 3 6px;
+background: #00008b;
+padding: 4 8px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-bottom: 4px solid #0000ff;
+}
+.li_form:hover{
+border-top: 2px solid #0000ff;
+border-bottom: 2px solid #0000ff;
+}
+.a_form{
+font-size: 14px;
+text-decoration: none;
+color: #fff;
+}
+.tbl_agency_banner{
+padding: 10px;
+border-bottom: 1px solid #ccc;
+background: #f1f1f1;
+}
+.tbl_agency_banner label{
+font-size: 16px;
+color: #808080;
+}
+.a_back_rmpes{
+text-decoration: none;
+position: absolute;
+padding: 4 8px;
+top: 15;
+font-size: 16px;
+right: 10;
+background: #4169cc;
+border-radius: 2px;
+color: #fff;
+border: 0;
+transition: .4s;
+cursor: pointer;
+}
+.a_back_rmpes:hover{
+background: #0000ff;
+}
+.border_con{
+width: 300px;
+margin: 0 auto;
+border: 1px solid #ccc;
+}
+.border_con_div{
+border-bottom: 1px solid #ccc;
+padding: 10 0px;
+text-indent: 10px;
+font-size: 14px;
+}
+.border_con_div label{
+color: #0000ff;
+font-weight: bold;
+}
+.innn{
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 20;
+}
+.outt{
+background: #fff;
+border-radius: 5px;
+border: 1px solid #ccc;
+position: relative;
+color: #ff0000;
+width: 500px;
+padding: 20px;
+margin: 50 auto;
+text-align: center;
+font-size: 15px;
+}
+.x_innn{
+padding: 20px;
+cursor: pointer;
+color: #ff0000;
+font-size: 17px;
+right: 5;
+top: -2;
+text-decoration: none;
+position: absolute;
+}
+.sad{
+width: 100px;
+height: 100px;
+}
+.tbl_long{
+margin: 20 auto;
+background: #fff;
+border-collapse: collapse;
+width: 1000px;
+}
+.tbl_long_banner td{
+background: #00ffff;
+text-align: center;
+font-size: 15px;
+}
+.tbl_long td{
+border: 1px solid #ccc;
+padding: 5px;
+font-size: 14px;
+}
+.inn_view_form1{
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.4);
+position: absolute;
+z-index: 15;
+}
+.tbl_form1{
+border-collapse: collapse;
+background: #fff;
+margin: 30 auto;
+position: relative;
+width: 1200px;
+}
+.tbl_form1 td{
+padding: 4px;
+font-size: 12px;
+}
+.space{
+padding: 10 0px;
+background: #fff;	
+}
+.p_big{
+font-weight: bold;
+}
+.td_blue{
+background: #00008b;
+color: #fff;
+}
+.td_blue td{
+border: 1px solid #808080;
+}
+.td_border td{
+border: 1px solid #ccc;
+}
+.ul_eg{
+list-style-type: none;
+}
+.li_eg{
+margin: 2 0px;
+}
+.label{
+font-weight: bold;
+position: absolute;
+top: 0;
+right: 0;
+}
+.x_tbl_form1{
+position: absolute;
+left: 5;
+top: 5;
+color: #ff0000;
+cursor: pointer;
+font-size: 19px;
+}

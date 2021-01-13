@@ -1,0 +1,296 @@
+.panel_back{
+background: #fff;
+position: absolute;
+width: 75%;
+height: 75%;
+}
+.admin_type{
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+color: #9acd32;
+padding: 5 0px;
+}
+.panel_holder{
+width: 100%;
+position: relative;
+}
+.left_panel{
+height: 100vh;
+background: #333;
+width: 250px;
+position: absolute;
+top: 0px;
+}
+.right_panel{
+background: #fff;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 250px;
+}
+.p_admin_name{
+color: #fff;
+font-size: 14px;
+text-align: center;
+padding-top: 20px;
+}
+.div_panel{
+margin-top: 20px;
+padding-bottom: 10px;
+background: rgba(0,0,0,0.1);
+}
+.div_panel_banner{
+padding: 10 0px;
+background: rgba(0,0,0,0.2);
+text-indent: 10px;
+}
+.p_prof{
+font-size: 14px;
+color: #fff;
+}
+.ul_prof_panel{
+list-style-type: none;
+text-indent: 10px;
+}
+.li_prof_panel{
+color: #ccc;
+transition: .5s;
+padding: 5 0px;
+}
+.li_prof_panel:hover{
+text-indent: 30px;
+background: #000;
+color: #fff;
+}
+.a_panel{
+text-decoration: none;
+color: #ccc;
+font-size: 14px;
+}
+.prof_i{
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+.prof_inn{
+width: 100%;
+height: 100%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+z-index: 9;
+}
+.tbl_view_prof, .tbl_view_prof2{
+width: 600px;
+padding: 20px;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0px; 4px 10px #808080;
+margin: 20 auto;
+position: relative;
+}
+.close_view_prof{
+text-decoration: none;
+background: #cd5c5c;
+color: #fff;
+font-size: 19px;
+border-radius: 50%;
+padding: 2px; 
+position: absolute;
+top: 10;
+right: 10;
+cursor: pointer
+}
+.close_view_prof:hover{
+background: #ff0000;
+}
+.hr_prof{
+border-bottom: 1px solid #ccc;
+margin: 5 0px;
+}
+.tbl_view_prof label{
+color: #9acd32;
+font-size: 16px;
+}
+.tbl_view_prof2 label{
+color: #0000ff;
+font-size: 16px;
+}
+.tbl_view_prof p{
+padding-top: 5px;
+color: #808080;
+font-size: 16px;
+}
+.fname, .mname, .lname, .office, .agency_head, .uname, .pwd_rec{
+padding: 5px;
+width: 100%;
+font-size: 14px;
+border-radius: 2px;
+border: 1px solid #ccc;
+}
+.i_edit_prof{
+width: 40px;
+height: 40px;
+margin-right: 5px;
+}
+.btn_prof_update{
+padding: 10 20px;
+background: #9acd32;
+color: #fff;
+font-size: 14px;
+border-radius: 2px;
+border-bottom: 2px solid #669933;
+transition: .5s;
+cursor: pointer;
+margin-top: 10px;
+}
+.btn_prof_update:hover{
+background: #669933;
+}
+.blue{
+color: #0000ff;
+}
+.tbl_view_prof2 b{
+color: #6495ed;
+}
+.a_edit_prof{
+color: #9acd32;
+font-size: 15px;
+text-decoration: none;
+}
+.con_pop{
+position: absolute;
+top: 0;
+right: 0;
+width: 900px;
+background: #fff;
+height: 100vh;
+display: none;
+}
+.confirm_inn{
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 9;
+}
+.con_success_inn{
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 10;
+}
+.con_success_out{
+width: 400px;
+padding: 20px;
+background: #fff;
+border-radius: 10px;
+border: 1px solid #ccc;
+font-size: 15px;
+margin: 50 auto;
+}
+.tbl_act{
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 400px;
+margin: 20px;
+}
+.tbl_act_banner{
+background: #f1f1f1;
+font-size: 13px;
+padding: 10 0px;
+text-indent: 10px;
+position: relative;
+}
+.x_log, .x_set{
+position: absolute;
+top: 10;
+right: 10;
+color: #0000ff;
+cursor: pointer;
+}
+.x_log:hover, .x_set:hover{
+text-decoration: underline;
+color: #ff0000;
+}
+.li_set{
+padding: 10px;
+border-bottom: 1px solid #f1f1f1;
+font-size: 14px;
+}
+.i_cons{
+width: 30px;
+height: 30px;
+}
+.date_time1{
+color: #808080;
+font-style: italic;
+}
+.no_up{
+text-align: center;
+color: #808080;
+margin: 10 0px;
+}
+.running_man{
+width: 50px;
+height: 50px;
+margin-top: 70px;
+}
+.con_act, .con_set{
+height: 300px;
+}
+.td_slider{
+overflow-y: auto;
+-moz-overflow-y: auto;
+-webkit-overflow-y: auto;
+}
+.td_slider::-webkit-scrollBar{
+width: 0px;
+}
+.ul_tbl{
+list-style-type: none;
+}
+.li_tbl{
+float: left;
+margin: 20 10px;
+}
+.act_count{
+color: #ff0000;
+}
+.tbl_infor{
+border-collapse: collapse;
+margin-left: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 870px;
+}
+.tbl_infor_banner{
+background: #e6e6fa;
+color: #0000ff;
+}
+.tbl_infor td{
+border: 1px solid #ccc;
+padding: 5 10px;
+font-size: 14px;
+}
+.tbl_infor_banner2{
+background: #f1f1f1;
+}
+.con_no_agency_head_haha{
+margin-left: 30px;
+background: #ffb6c1;
+font-size: 15px;
+width: 380px;
+border: 1px solid #ff0000;
+padding: 10px;
+border-radius: 4px;
+position: absolute;
+top: 440px;
+}
+.avat_tar{
+border-radius: 50%;
+border: 1px solid #fff;
+width: 70px;
+height: 70px;
+}

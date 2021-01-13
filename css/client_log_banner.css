@@ -1,0 +1,20 @@
+.banner{
+padding: 10 0px;
+background: #00008b;
+}
+.banner_con{
+width: 1000px;
+margin: 0 auto;	
+}
+.a_ret_home{
+color: #fff;
+font-size: 18px;
+text-decoration: none;
+text-shadow: 0px 2px 1px #000;
+-moz-text-shadow: 0px 2px 1px #000;
+-o-text-shadow: 0px 2px 1px #000;
+-webkit-text-shadow: 0px 2px 1px #000;
+}
+.rpmes{
+color: #ffff00;
+}

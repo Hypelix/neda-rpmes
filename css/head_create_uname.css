@@ -1,0 +1,46 @@
+.con_uname{
+margin: 20 auto;
+width: 600px;
+text-align: center;
+}
+.tbl_uname{
+background: #fff;
+padding: 20px;
+width: 400px;
+margin-top: 20px;
+}
+.lab_uname{
+color: #ff0000;
+font-size: 16px;	
+}
+.head_uname{
+padding:  7 4px;
+border: 1px solid #ccc;
+font-size: 14px;
+width: 100%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.head_uname_checker, .uname_false{
+font-style: italic;
+font-size: 15px;
+color: #ff0000;
+}
+.btn_uname{
+margin-top: 10px;
+padding: 6 12px;
+border-bottom: 2px solid #669933;
+color: #fff;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+transition: .4s;
+cursor: pointer;
+background: #9acd32;
+}
+.btn_uname:hover{
+background: #669933;
+}

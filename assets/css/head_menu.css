@@ -1,0 +1,162 @@
+.menu{
+background: #00008b;
+}
+.menu_con{
+margin: 0 auto;
+width: 1000px;
+height: 30px;
+}
+.ul_head_menu{
+list-style-type: none;
+}
+.li_head_menu{
+display: inline-block;
+margin: 0 5px;
+}
+.a_head_men{
+color: #ccc;
+text-decoration: none;
+}
+.ul_menu{
+list-style-type: none;
+position: absolute;
+z-index: 20;
+width: 200px;
+display: none;
+}
+.li_head_menu:hover .ul_menu{
+display: block;
+}
+.a_head_men:hover{
+color: #fff;
+}
+.li_menu{
+padding: 10px;
+transition: .4s;
+background: #4169cc;
+color: #fff;
+border-bottom: 1px solid #ccc;
+font-size: 14px;
+}
+.a_menu{
+text-decoration: none;
+color: #ccc;
+font-size: 15px;
+}
+a .li_menu:hover{
+color: #0000ff;
+background: #fff;
+}
+.new_proj{
+padding: 3px;
+background: #ff0000;
+color: #fff;
+font-size: 14px;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-o-border-radius: 50%;
+-webkit-border-radius: 50%;
+margin-left: 3px;
+}
+.btn_f2_ret{
+color: #0000ff;
+text-decoration: none;
+}
+.btn_f2_ret:hover{
+text-decoration: underline;
+}
+.inn_f2_ret{
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 9;
+}
+.tbl_form2{
+border-collapse: collapse;
+background: #fff;
+font-size: 13px;
+margin: 20 auto;
+width: 1200px;
+position: relative;
+}
+.lab_f2{
+top: 2;
+right: 2;
+position: absolute;
+font-weight: bold;
+}
+.tbl_form2 td{
+padding: 4px;
+}
+.p_bold{
+font-weight: bold;
+}
+.white_space{
+padding: 5 0px;
+background: #fff;
+}
+.tr_number{
+background: #00008b;
+color: #fff;
+}
+.tr_number td, .tr_item td{
+border: 1px solid #808080;
+}
+.tr_item{
+background: #00008b;
+color: #fff;
+}
+.td_border td{
+border: 1px solid #808080;
+}
+.hr_head{
+border-bottom: 1px solid #000;
+}
+.btn_submit{
+padding: 5 10px;
+background: #9acd32;
+color: #fff;
+border-radius: 3px;
+font-size: 13px;
+border-bottom: 1px solid #669933;
+cursor: pointer;
+text-align: center;
+}
+.btn_submit:hover{
+background: #669933;
+}
+.con_box_success{
+margin: 100 auto;
+width: 500px;
+padding: 50 20px;
+border: 1px solid #ccc;
+border-radius: 3px;
+background: #fff;
+text-align: center;
+color: #9acd32;
+font-size: 18px;
+font-weight: bold;
+box-shadow: 0px 4px 20px #000;
+-moz-box-shadow: 0px 4px 20px #000;
+-o-box-shadow: 0px 4px 20px #000;
+-webkit-box-shadow: 0px 4px 20px #000;
+}
+.icon_popup{
+width: 60px;
+height: 60px;
+margin-bottom: 15px;
+}
+.s_updated{
+color: #9acd32;
+}
+.x_inn_f2_ret{
+color: #ff0000;
+position: absolute;
+top: 4;
+left: 4;
+cursor: pointer;
+}
+.x_inn_f2_ret:hover{
+text-decoration: underline;
+}

@@ -1,0 +1,160 @@
+h2{
+margin: 40 auto;
+text-align: center;
+}
+.a{
+text-decoration: none;
+}
+.p{
+text-align: center;
+margin: 10 0px;
+font-size: 15px;
+}
+.tbl_f2_fetch{
+border: 1px solid #ccc;
+background: #fff;
+width: 1000px;
+border-collapse: collapse;
+font-size: 14px;
+margin: 40 auto;
+}
+.tbl_f2_fetch td{
+border: 1px solid #ccc;
+padding: 5px;
+transition: 4s;
+}
+.tr_gray:hover{
+background: #f1f1f1;
+}
+.tr_border{
+background: #00008b;
+color: #fff;
+text-align: center;
+}
+.td_names{
+color: #0000ff;
+}
+.con_inn_f2{
+width: 100%;
+height: 100%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+}
+.con_out_f2_{
+margin: 40 auto;
+padding: 50px;
+border: 1px solid #ccc;
+background: #fff;
+width: 400px;
+text-align: center;
+font-size: 17px;
+border-radius: 4px;
+color: #0000ff;
+position: relative;
+}
+.month_gen{
+border: 1px solid #ccc;
+font-size: 16px;
+padding: 5 10px;
+text-align: center;
+border-radius: 2px;
+}
+.btn_gen{
+color: #fff;
+border: 0;
+cursor: pointer;
+background: #4169cc;
+padding: 5 10px;
+border-radius: 3px;
+-o-border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-bottom: 3px solid #0000ff;
+transition: .4s;
+padding-top: 9px;
+}
+.btn_gen:hover{
+background: #00008b;	
+border-bottom: 3px solid #00008b;
+}
+.ul_enter{
+list-style-type: none;	
+padding-top: 10px;
+}
+.li_enter{
+display: inline-block;
+margin: 5px;
+}
+.a_close_enter{
+color: #fff;
+position: absolute;
+font-size: 20px;
+right: 5;
+top: 2;
+cursor: pointer;
+border-radius: 50%;
+background: #ccc;
+padding: 3px;
+}
+.a_close_enter:hover{
+color: #fff;
+background: #cd5c5c;	
+}
+.span_month{
+color: #669933;
+font-weight: bold;
+}
+.outer{
+margin: 50 auto;
+width: 300px;
+background: #fff;
+padding: 20px;
+border-radius: 7px;
+border: 1px solid #cd5c5c;
+text-align: center;
+font-size: 15px;
+color: #ff0000;
+}
+.tbl_long{
+margin: 20 auto;
+background: #fff;
+border-collapse: collapse;
+width: 1000px;
+}
+.tbl_long_banner td{
+background: #e6e6fa;
+tex-align: center;
+}
+.tbl_long td{
+border: 1px solid #ccc;
+padding: 10px;
+font-size: 14px;
+}
+.a_done{
+text-decoration: none;
+color: #fff;
+background: #cd5c5c;
+padding: 2px;
+font-size: 14px;
+}
+.a_done:hover{
+background: #ff0000;
+}
+.inn_done{
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.5);
+position: absolute;
+z-index: 20;
+}
+.out_done{
+margin: 50 auto;
+background: #fff;
+border: 1px solid #ccc;
+border-radius: 10px;
+font-size: 20px;
+text-align: center;
+color: #669933;
+width: 400px;
+padding: 25px;
+}

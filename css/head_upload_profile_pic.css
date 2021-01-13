@@ -1,0 +1,86 @@
+.container_upload{
+margin: 100 auto;
+width: 600px;
+}
+.upload_con{
+margin: 10 auto;
+width: 400px;
+border: 1px solid #ccc;
+background: #fff;
+padding: 20 10px;
+text-align: center;
+position: relative;
+box-shadow: 0px 4px 20px #ccc;
+-moz-box-shadow: 0px 4px 20px #ccc;
+-o-box-shadow: 0px 4px 20px #ccc;
+-webkit-box-shadow: 0px 4px 20px #ccc;
+}
+#pic{
+display: none;
+}
+.lab_pic{
+color: #0000ff;
+font-size: 15px;
+cursor: pointer;
+}
+.avat_def{
+width: 100px;
+height: 100px;
+border: 1px solid #ccc;
+margin: 10px;
+}
+.btn_upload{
+padding: 5 10px;
+background: #9acd32;
+color: #fff;
+font-size: 16px;
+margin-top: 10px;
+border-bottom: 2px solid #669933;
+transition: .4s;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.btn_upload:hover{
+background: #669933;
+}
+.a_skip{
+position: absolute;
+top: 7;
+right: 5;
+text-decoration: none;
+font-size: 14px;
+color: #0000ff;
+}
+.a_skip:hover{
+color: #ff0000;
+text-decoration: underline;
+}
+.con{
+padding: 5 0px;
+color: #ff0000;
+text-indent: 12px;
+border-left: 4px solid #ff0000;
+background: #fff;
+width: 420px;
+position: relative;
+margin: 0 auto;
+}
+.close_checker{
+position: absolute;
+padding: 3px;
+background: #ccc;
+color: #fff;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-o-border-radius: 50%;
+-webkit-border-radius: 50%;
+right: 5;
+top: 2;
+margin: 0 auto;
+cursor: pointer;
+}
+.close_checker:hover{
+background: #f08080;
+}
